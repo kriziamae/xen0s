@@ -1,0 +1,38 @@
+
+
+body{
+    background-image: url(/xen0s/assets/bg1.jpg);
+}
+
+.main-content-wrapper {
+    display: flex;
+    background-color: azure;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+}
+
+.sidebar{
+    display: inline-block;
+    background-color: antiquewhite;
+    width: 20%;
+    min-width: 60px;
+    text-align: center;
+}
+
+.sidebar-nav img{
+    align-items: center;
+    height: 30px;
+}
+
+.intro {
+    margin: 5%;
+}
+
+.status-box{
+    margin: 5%;
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAB00lEQVRYR+1Y0XLEIAi85P+/+SyJmgiCYCLpOZNO+9IEWRd24W75TPKzTILz8wIdXSmO0aAkoTHa+/k4ErdAXAxd4e9bJ0Xvi0C3BxjB8R8zUHKGOS5htgGFl9WDFSCZI41xKc8AoHytJGE+BpQmUpkWeryKI/fNz3M+ndF0AA0UREFa+UBZdTlNHAgDfUABZGAUuKX38tyIl1cvujatlNRTTkBXyMdSo5aeqtUJYNXJbG9K/VZGNwNHT57NtlP1WWJabD0OlDP6n2S0F+jOZC1CZ9X3znoAGP3tcOMVEH43s/QSlcllxKWk8M2Q6PUG2mf4cWnaC98MHKh6LNoV8kdbVX00pLL/D9BzuzQAjXRNBnSBUpzTeGDFj6OoX9u3J+Jn3sZfASXbW92wqd50/bIMhztMX7SnvdTpTniz9bYnellVTDnAu+QU2DzbU++sfxlVFNddeqTCYov6MTHts5b94P4MUEi9wqyHX1X10qSQ/FT7gkGOw0vvle2JnfV5RaXMXgeKvx67DTSvKHnmY02cXSK1hnYR6eLdpad2JYm3C2hDpN1LiRVQzVixVRQP8UXOrcyUp/VRhDkAbf5Wpg0i1F3Gy3LubFNs7At0NKXTMPoHT5yWK4hccc8AAAAASUVORK5CYII=") 14 /  14px / 0 round;
+    border-width:  14px;
+    border-style:  solid;
+}
